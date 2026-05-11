@@ -1,0 +1,21 @@
+# WOYS – What's On Your Screen
+# HuggingFace Spaces CPU tier - compatible versions
+ 
+torch
+torchvision
+ 
+# Core model libraries
+transformers==4.49.0
+accelerate>=0.33.0
+sentencepiece>=0.2.0
+einops>=0.8.0
+timm>=1.0.9
+ 
+# Image handling
+Pillow>=10.4.0
+ 
+# UI - latest gradio which sets its own huggingface-hub range
+gradio==6.14.0
+ 
+# Let gradio and transformers negotiate huggingface-hub together
+huggingface-hub>=0.33.5,<2.0
