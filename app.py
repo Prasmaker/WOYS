@@ -211,7 +211,7 @@ CSS = """
     --accent:   #00e5ff;
     --accent2:  #7c3aed;
     --text:     #e8eaf0;
-    --muted:    #6b7585;
+    --muted:    #e6eaf0;
     --radius:   12px;
 }
 
